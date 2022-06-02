@@ -7,10 +7,6 @@ on:
         required: true
         type: choice
         description: Which version should be published?
-        options:
-          - prepatch
-          - preminor
-          - premajor
       prefix:
         required: true
         type: choice
